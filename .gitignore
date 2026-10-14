@@ -17,7 +17,23 @@ yarn-error.log*
 # misc
 .DS_Store
 *.pem
+*.log
 
-# local env files
+# local env files & secrets
+.env
+.env.*
 .env*.local
+!.env.example
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
